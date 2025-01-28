@@ -5,6 +5,7 @@ import "../assets/css/custom.css";
 
 import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer.js";
+import Structure from "../components/Structure.js";
 
 const AboutPage = () => {
   return (
@@ -77,6 +78,9 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
+        {/* end summary  */}
+        <Structure />
+        {/* structure component  */}
       </div>
       <Footer />
     </>

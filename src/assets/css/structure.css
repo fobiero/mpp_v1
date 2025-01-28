@@ -1,0 +1,69 @@
+@import "../../App.css";
+
+.st-cont-item {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+}
+
+.st-cont {
+  padding: 1rem 0;
+  margin: 0.65rem 0;
+}
+.str-cont-item-name {
+  width: 30%;
+}
+
+.str-cont-item-data {
+  border-left: 2px solid #dedede;
+  padding: 0 2rem;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2rem;
+  width: 70%;
+}
+
+.scr-nm-dt {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 0.5rem 0 0 0;
+}
+
+.str-cont-item-name {
+  height: auto;
+  text-align: center;
+  padding: 1rem;
+  object-fit: cover;
+}
+
+.scr-nm {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* SMALL-SCREENN-DEVICES  */
+
+@media screen and (max-width: 960px) {
+  .st-cont-item {
+    display: inline-block;
+    border-bottom: 1px solid #dedede;
+  }
+  .str-cont-item-name {
+    text-align: center;
+    width: 100%;
+  }
+
+  .str-cont-item-data {
+    border: none;
+    padding: 0 2rem;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2rem;
+    width: 100%;
+  }
+  .sc-tl {
+    text-align: center;
+  }
+}

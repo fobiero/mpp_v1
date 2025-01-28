@@ -6,6 +6,9 @@ const ContactPage = () => {
   return (
     <>
       <Navbar />
+      <div className="section section-contact contact" id="contact">
+        Get inTouch
+      </div>
       <Footer />
     </>
   );
