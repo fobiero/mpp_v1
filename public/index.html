@@ -43,18 +43,19 @@
       href="./logo/favicon-16x16.png"
     />
     <link rel="manifest" href="./logo/site.webmanifest" />
-
-    <!-- <link rel="stylesheet" href="./public/assets/css/default.css" />
-    <link rel="stylesheet" href="./public/assets/css/custom.css" />
-    <link rel="stylesheet" href="./public/assets/css/navbar.css" />
-    <link rel="stylesheet" href="./public/assets/css/smallScreen.css" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../src/assets/css/bootstrap.min.css" />
   </head>
+  <script>
+    AOS.init();
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
     <script src="../src/assets/js/bootstrap.min.js"></script>
+    <script src="../src/assets/js/aos_script.js"></script>
+
     <!-- external variable links  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -72,5 +73,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>

@@ -1,5 +1,28 @@
 @import "../../App.css";
 
+nav {
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  position: fixed !important;
+  z-index: 2;
+  width: 100%;
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  padding-left: 0 !important;
+  margin-right: 180px;
+  margin-left: -0.5rem;
+}
+
+.logo-item {
+  width: 80px;
+  height: 50px;
+}
+
 /* toggle-menu  */
 .navbar-toggler-icon {
   display: inline-block;
@@ -10,4 +33,37 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.nav-item {
+  padding-right: 2rem;
+}
+
+.nav-link {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.donate-btn {
+  color: inherit;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0.35rem 1.75rem;
+  background-color: var(--primary_color);
+}
+
+.donate-btn:hover {
+  color: #fff;
+}
+
+/* SMALL-SCREEN-DEVICES  */
+
+@media screen and (max-width: 960px) {
+  .logo-item {
+    width: 80px;
+    height: 50px;
+    margin-left: 1rem;
+  }
 }

@@ -11,13 +11,15 @@ import Wrapper from "../components/Wrapper";
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <Wrapper />
-      <Projects />
-      <Footer />
+      <div className="page-setup">
+        <Navbar />
+        <Home />
+        <About />
+        <Services />
+        <Wrapper />
+        <Projects />
+        <Footer />
+      </div>
     </>
   );
 };
