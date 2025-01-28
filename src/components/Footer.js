@@ -65,11 +65,18 @@ const Footer = () => {
                     >
                       home
                     </Link>
-                    <Link className="ft-link-item">about</Link>
-                    <Link className="ft-link-item">what we do</Link>
-                    <Link className="ft-link-item">who we are</Link>
-                    <Link className="ft-link-item">where we are</Link>
-                    <Link className="ft-link-item">contact us</Link>
+                    <Link className="ft-link-item" to="/whatwedo">
+                      what we do
+                    </Link>
+                    <Link className="ft-link-item" to="/about">
+                      where we are
+                    </Link>
+                    <Link className="ft-link-item" to="/about">
+                      donate
+                    </Link>
+                    <Link className="ft-link-item" to="/about">
+                      contact us
+                    </Link>
                   </div>
                 </div>
               </div>

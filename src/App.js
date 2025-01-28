@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import DonatePage from "./pages/DonatePage";
+import WhatWeDoPage from "./pages/WhatWeDoPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/donate" element={<DonatePage />} />
+        <Route path="/whatwedo" element={<WhatWeDoPage />} />
       </Routes>
     </Router>
   );

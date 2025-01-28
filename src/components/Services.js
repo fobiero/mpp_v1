@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../assets/css/custom.css";
-import LandingPage from "../pages/LandingPage";
-import Carousel from "./Carousel";
 
 const Services = () => {
   return (

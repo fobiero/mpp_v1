@@ -46,7 +46,9 @@ const Carousel = () => {
                 MPP staff participating in Monitoring and emulation training in
                 Kauda.
               </div>
-              <Link className="cr-main-info-dt-link">read more</Link>
+              <Link className="cr-main-info-dt-link" to="/about">
+                read more
+              </Link>
             </div>
           </div>
           <div className="carousel-item cr-thumb-img">
@@ -61,7 +63,9 @@ const Carousel = () => {
                 we supported over 800 candidates with transport services to sit
                 for their 2024 National Examination
               </div>
-              <Link className="cr-main-info-dt-link">read more</Link>
+              <Link className="cr-main-info-dt-link" to="/about">
+                read more
+              </Link>
             </div>
           </div>
           <div className="carousel-item cr-thumb-img">
@@ -76,7 +80,9 @@ const Carousel = () => {
                 Mountains’ Path for Peace registration team traveling through
                 muddy roads in the
               </div>
-              <Link className="cr-main-info-dt-link">read more</Link>
+              <Link className="cr-main-info-dt-link" to="/about">
+                read more
+              </Link>
             </div>
           </div>
         </div>

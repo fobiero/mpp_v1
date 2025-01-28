@@ -198,6 +198,112 @@
   display: none;
 }
 
+/* WHAT WE DO SECTION  */
+.section-pages-header {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.page-header-tle {
+  font-weight: 700;
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.4em;
+}
+
+.pg-sc-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 1rem;
+  text-transform: capitalize;
+}
+
+.pg-sc-link:hover {
+  color: #fff;
+}
+
+.home-section-link {
+  padding-left: 0;
+  border-right: 1px solid #fff;
+}
+
+.section-pages-header {
+  background-image: url("../images/hero/dk-wrap-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom, center;
+}
+
+.service-item {
+  margin: 2rem 0 0 0;
+  padding: 2rem 0;
+  align-items: center;
+  border-bottom: 1px solid #dedede;
+}
+
+.service-item-thum-info-tle {
+  font-weight: 600;
+  /* padding: 0 0 2rem 0; */
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.service-item-thumb {
+  width: 100%;
+  height: auto;
+}
+
+.service-item-thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.service-item-thum-info-tle-desc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.service-item-thum-info-tle-desc span {
+  font-weight: 400;
+  margin-right: 0.5rem;
+}
+
+.pg-hd-tle-item {
+  text-align: center;
+  padding: 2rem 0 0 0;
+  font-size: 36px;
+}
+
+/* ABOUT-PAGE-SECTION-CONTENT  */
+.page-headline {
+  padding: 2rem 0;
+}
+
+.about-headline {
+  padding: 2rem 0;
+  line-height: 1.3rem;
+  font-size: 45px;
+  font-weight: 600;
+  border-bottom: 1px solid #dedede;
+}
+
+.abt-cont-info {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.abt-cont-info-more {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.abt-cont-info span {
+  color: var(--primary_color);
+  font-style: italic;
+}
+
 /* RESPONSIVE-DEVICES  */
 /* small screen-device  */
 
