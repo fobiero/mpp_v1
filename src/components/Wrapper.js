@@ -15,7 +15,10 @@ const Wrapper = () => {
             Development.
           </div>
           <div className="wrap-btn">
-            <Link className="about-more abt-ft-item wrap-link-item">
+            <Link
+              className="about-more abt-ft-item wrap-link-item"
+              to="/donate"
+            >
               donate <i class="fa-solid fa-arrow-right-long"></i>{" "}
             </Link>
           </div>

@@ -2,6 +2,7 @@
 
 .carousel-item {
   width: 100%;
+  height: auto;
 }
 
 .carousel-item img {
@@ -24,12 +25,12 @@
 
 .cr-header-tle {
   font-weight: 600;
-  font-size: 1.8rem !important;
+  font-size: 1.85rem !important;
 }
 
 .cr-header-tle-desc {
-  font-weight: 400;
-  font-size: 2.5rem !important;
+  padding: 1rem 0;
+  font-size: 2.25rem !important;
 }
 
 .btn-ind {
@@ -46,12 +47,10 @@
   margin-left: 15%;
 }
 
-@media screen and (max-with: 960px) {
-  .carousel-item {
-    width: 100%;
-    height: auto !important;
+@media screen and (max-width: 960px) {
+  .about-section {
+    padding: 2rem 0 !important;
   }
-
   .cr-ct-dt {
     position: absolute;
     right: 15%;
@@ -66,6 +65,26 @@
   }
 
   .cr-header-tle {
-    font-size: 1.5rem !important;
+    display: none;
+  }
+
+  .cr-header-tle-desc {
+    font-weight: 400;
+    padding: 1rem 0;
+    font-size: 16px !important;
+  }
+
+  .btn-ind {
+    position: absolute;
+    right: 0;
+    bottom: 0.5%;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
   }
 }

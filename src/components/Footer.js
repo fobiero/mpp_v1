@@ -17,9 +17,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-3 col-sm-12">
                 <div className="footer-item ft-item-sm-dv">
-                  <div className="footer-header">
-                    {/* <h3>Footer-content</h3> */}
-                  </div>
+                  <div className="footer-header"></div>
                   <div className="footer-body">
                     <div className="ft-thumb">
                       <img src={require("../assets/images/logo-bw.png")} />

@@ -11,6 +11,7 @@ const Navbar = () => {
         <div className="container">
           <Link className="navbar-brand" href="#">
             <img
+              to=""
               className="logo-item"
               src={require("../assets/images/logo.png")}
             />
@@ -29,28 +30,30 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="">
                   home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/about">
                   what we do
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/about">
                   where we are
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/contact">
                   contact us
                 </Link>
               </li>
             </ul>
             <div className="d-flex ">
-              <Link className="donate-btn">Donate</Link>
+              <Link className="donate-btn" to="/donate">
+                Donate
+              </Link>
             </div>
           </div>
         </div>

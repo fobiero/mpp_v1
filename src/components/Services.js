@@ -34,7 +34,7 @@ const Services = () => {
                       primary and secondary schools to build peace in the Nuba
                       Mountains.
                     </p>
-                    <Link className="span-about-sec-btn">
+                    <Link className="span-about-sec-btn" to="/about">
                       read more <i class="fa-solid fa-arrow-right-long"></i>{" "}
                     </Link>
                   </div>
@@ -57,7 +57,7 @@ const Services = () => {
                       young people, women, children, and Internal Displace
                       Persons (IDPs) in the Nuba Mountains.
                     </p>
-                    <Link className="span-about-sec-btn">
+                    <Link className="span-about-sec-btn" to="/about">
                       read more <i class="fa-solid fa-arrow-right-long"></i>{" "}
                     </Link>
                   </div>
@@ -80,7 +80,7 @@ const Services = () => {
                       resource sharing among communities and the importance of
                       afforestation through community workshops.
                     </p>
-                    <Link className="span-about-sec-btn">
+                    <Link className="span-about-sec-btn" to="/about">
                       read more <i class="fa-solid fa-arrow-right-long"></i>{" "}
                     </Link>
                   </div>
