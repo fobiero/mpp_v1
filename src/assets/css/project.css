@@ -1,0 +1,53 @@
+@import "../../App.css";
+@import "./custom.css";
+
+.sect-rle {
+  padding: 2rem 0;
+  border-top: 1px solid #dedede;
+}
+
+.tle-pro {
+  padding: 0;
+  font-size: 24px;
+}
+
+.it-tle {
+  color: var(--primary_color) !important;
+  font-weight: 400 !important;
+}
+
+.proj-info-item {
+  font-size: 16px !important;
+  line-height: 2rem;
+  padding: 1rem 0;
+}
+
+.proj-thumb {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.proj-thumb img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .sect-rle {
+    padding: 2rem 0;
+  }
+
+  .proj-info {
+    padding: 0.65rem;
+  }
+
+  .proj-thumb {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+  .proj-thumb img {
+    width: 100%;
+    height: 100%;
+  }
+}
