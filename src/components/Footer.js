@@ -71,10 +71,10 @@ const Footer = () => {
                     <Link className="ft-link-item" to="/about">
                       where we are
                     </Link>
-                    <Link className="ft-link-item" to="/about">
+                    <Link className="ft-link-item" to="/">
                       donate
                     </Link>
-                    <Link className="ft-link-item" to="/about">
+                    <Link className="ft-link-item" to="/contact">
                       contact us
                     </Link>
                   </div>

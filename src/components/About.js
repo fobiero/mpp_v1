@@ -43,10 +43,10 @@ const About = () => {
               </span>
             </p>
             <div className="about-ft">
-              <Link className="about-more abt-ft-item">
+              <Link className="about-more abt-ft-item" to="/about">
                 explore more <i class="fa-solid fa-arrow-right-long"></i>{" "}
               </Link>
-              <Link className="about-contact abt-ft-item">
+              <Link className="about-contact abt-ft-item" to="/contact">
                 Contact us <i class="fa-solid fa-arrow-right-long"></i>{" "}
               </Link>
             </div>

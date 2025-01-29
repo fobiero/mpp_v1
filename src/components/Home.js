@@ -64,7 +64,7 @@ const Home = () => {
                   Mountains’ Path for Peace registration team traveling through
                   muddy roads
                 </p>
-                <Link className="about-more abt-ft-item" to="/donate">
+                <Link className="about-more abt-ft-item" to="/">
                   donate <i class="fa-solid fa-arrow-right-long"></i>{" "}
                 </Link>
               </div>

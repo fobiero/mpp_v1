@@ -356,6 +356,65 @@
   opacity: 1;
 }
 
+/* CONTACT US PAGE  */
+.contact-items {
+  padding: 4rem 0;
+}
+
+.contact-header {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.form-names {
+  display: flex;
+  align-items: center;
+}
+
+.f-name {
+  width: 50%;
+  margin-right: 0.65rem;
+}
+
+.s-name {
+  width: 50%;
+}
+
+.form-input-field {
+  width: 100%;
+  outline: none;
+  text-transform: capitalize;
+  margin: 1rem 0;
+  color: #666;
+  padding: 0.75em;
+  height: auto;
+  border: 1px solid #666;
+  border-radius: 2px;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+
+.frm-button {
+  color: #666;
+  padding: 0.35rem 1.35rem;
+  text-transform: capitalize;
+  height: auto;
+  border: 1px solid #666;
+}
+
+.contact-icon {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0.675rem 0;
+  line-height: 1.35rem;
+}
+
+.sp-cnt-ic i {
+  color: var(--primary_color);
+  margin-right: 0.35rem;
+}
+
 /* RESPONSIVE-DEVICES  */
 /* small screen-device  */
 

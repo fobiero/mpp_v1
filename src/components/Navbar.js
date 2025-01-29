@@ -51,7 +51,7 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="d-flex ">
-              <Link className="donate-btn" to="/donate">
+              <Link className="donate-btn" to="/">
                 Donate
               </Link>
             </div>

@@ -19,10 +19,7 @@ const Video = () => {
               <br className="br" />
               Culture of Peace for Sustainable Development.
             </h3>
-            <Link
-              className="about-more abt-ft-item wrap-link-item"
-              to="/donate"
-            >
+            <Link className="about-more abt-ft-item wrap-link-item" to="/">
               donate <i class="fa-solid fa-arrow-right-long"></i>{" "}
             </Link>
           </div>
