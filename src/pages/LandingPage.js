@@ -8,6 +8,7 @@ import Projects from "../components/Projects";
 import Services from "../components/Services";
 import Wrapper from "../components/Wrapper";
 import Portfolio from "../components/Portfolio";
+import Video from "../components/Video";
 
 const LandingPage = () => {
   return (
@@ -18,8 +19,9 @@ const LandingPage = () => {
         <About />
         <Services />
         <Portfolio />
-        <Wrapper />
+        {/* <Wrapper /> */}
         <Projects />
+        <Video />
         <Footer />
       </div>
     </>

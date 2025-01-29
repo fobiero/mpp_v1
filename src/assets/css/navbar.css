@@ -35,6 +35,18 @@ nav {
   background-size: cover;
 }
 
+.navbar-toggler:active {
+  outline: none !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+}
+
 .nav-item {
   padding-right: 2rem;
 }
