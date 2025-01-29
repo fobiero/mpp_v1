@@ -7,6 +7,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Services from "../components/Services";
 import Wrapper from "../components/Wrapper";
+import Portfolio from "../components/Portfolio";
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <Home />
         <About />
         <Services />
+        <Portfolio />
         <Wrapper />
         <Projects />
         <Footer />

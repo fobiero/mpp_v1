@@ -304,6 +304,58 @@
   font-style: italic;
 }
 
+/* POTFOLIO IMAGES  */
+.ft-pr-header {
+  text-align: center;
+  padding: 0.65rem;
+  text-transform: capitalize;
+  font-size: 36px;
+}
+.potfolio-section {
+  padding: 4rem 0;
+  background-color: var(--wrapper_second_color);
+}
+.pt-items {
+  margin: 1rem 0;
+  cursor: pointer;
+  position: relative;
+}
+.pt-items img {
+  width: 100%;
+  height: auto;
+}
+
+/* hover effect  */
+
+.pt-item-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  display: inline;
+  text-align: center !important;
+  align-items: center !important;
+  left: 0;
+  padding-top: 15rem;
+  right: 0;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0.5;
+}
+
+.pt-desc {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.1;
+}
+
+.pt-items:hover .pt-item-info {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* RESPONSIVE-DEVICES  */
 /* small screen-device  */
 
