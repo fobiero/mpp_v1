@@ -41,13 +41,13 @@ const Carousel = () => {
               alt="education"
             />
             <div className="carousel-caption d-inline d-md-block">
-              <h5 className="cr-main-header crs-header">
+              {/* <h5 className="cr-main-header crs-header">
                 Capacity building Training
               </h5>
               <div className="cr-main-info crs-desc">
                 MPP staff participating in Monitoring and emulation training in
                 Kauda.
-              </div>
+              </div> */}
               {/* <Link className="cr-main-info-dt-link" to="/about">
                 read more
               </Link> */}
@@ -60,11 +60,11 @@ const Carousel = () => {
               alt="education"
             />
             <div className="carousel-caption d-inline d-md-block">
-              <h5 className="cr-main-header crs-header">featured Projects</h5>
+              {/* <h5 className="cr-main-header crs-header">featured Projects</h5>
               <div className="cr-main-info crs-desc">
                 we supported over 800 candidates with transport services to sit
                 for their 2024 National Examination
-              </div>
+              </div> */}
               {/* <Link className="cr-main-info-dt-link" to="/about">
                 read more
               </Link> */}
@@ -77,11 +77,11 @@ const Carousel = () => {
               alt="education"
             />
             <div className="carousel-caption d-inline d-md-block">
-              <h5 className="cr-main-header crs-header ">Our Mision</h5>
+              {/* <h5 className="cr-main-header crs-header ">Our Mision</h5>
               <div className="cr-main-info crs-desc">
                 Mountains’ Path for Peace registration team traveling through
                 muddy roads in the
-              </div>
+              </div> */}
               {/* <Link className="cr-main-info-dt-link" to="/about">
                 read more
               </Link> */}
