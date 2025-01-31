@@ -11,7 +11,7 @@ const Carousel = () => {
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
-        <div className="carousel-indicators cr-ind-btn">
+        {/* <div className="carousel-indicators cr-ind-btn">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
@@ -32,8 +32,8 @@ const Carousel = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
-        </div>
-        <div className="carousel-inner">
+        </div> */}
+        <div className="carousel-inner crs-main-content">
           <div className="carousel-item cr-thumb-img active">
             <img
               src={require("../assets/images/local/wrap-2.webp")}
@@ -41,14 +41,16 @@ const Carousel = () => {
               alt="education"
             />
             <div className="carousel-caption d-inline d-md-block">
-              <h5 className="cr-main-header">Capacity building Training</h5>
-              <div className="cr-main-info">
+              <h5 className="cr-main-header crs-header">
+                Capacity building Training
+              </h5>
+              <div className="cr-main-info crs-desc">
                 MPP staff participating in Monitoring and emulation training in
                 Kauda.
               </div>
-              <Link className="cr-main-info-dt-link" to="/about">
+              {/* <Link className="cr-main-info-dt-link" to="/about">
                 read more
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="carousel-item cr-thumb-img">
@@ -58,14 +60,14 @@ const Carousel = () => {
               alt="education"
             />
             <div className="carousel-caption d-inline d-md-block">
-              <h5 className="cr-main-header">Project</h5>
-              <div className="cr-main-info">
+              <h5 className="cr-main-header crs-header">featured Projects</h5>
+              <div className="cr-main-info crs-desc">
                 we supported over 800 candidates with transport services to sit
                 for their 2024 National Examination
               </div>
-              <Link className="cr-main-info-dt-link" to="/about">
+              {/* <Link className="cr-main-info-dt-link" to="/about">
                 read more
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="carousel-item cr-thumb-img">
@@ -75,18 +77,19 @@ const Carousel = () => {
               alt="education"
             />
             <div className="carousel-caption d-inline d-md-block">
-              <h5 className="cr-main-header">Mision</h5>
-              <div className="cr-main-info">
+              <h5 className="cr-main-header crs-header ">Our Mision</h5>
+              <div className="cr-main-info crs-desc">
                 Mountains’ Path for Peace registration team traveling through
                 muddy roads in the
               </div>
-              <Link className="cr-main-info-dt-link" to="/about">
+              {/* <Link className="cr-main-info-dt-link" to="/about">
                 read more
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
-        <button
+
+        {/* <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
@@ -109,7 +112,7 @@ const Carousel = () => {
             aria-hidden="true"
           ></span>
           <span className="visually-hidden">Next</span>
-        </button>
+        </button> */}
       </div>
     </>
   );

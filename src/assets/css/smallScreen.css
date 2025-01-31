@@ -194,7 +194,7 @@
     font-weight: 600;
   }
 
-  /* ABOUT SECTION  */
+  /* ABOUT SECTION && CAROUSEL */
   .about-section {
     padding: 2rem 0 !important;
   }
@@ -242,5 +242,20 @@
     letter-spacing: 0.1rem;
     font-size: 12px;
     padding: 0.35rem 0.65rem;
+  }
+
+  .crs-desc {
+    display: none !important;
+  }
+
+  .crs-header {
+    font-weight: 400;
+    font-size: 32px !;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 0;
+    text-transform: capitalize;
+  }
+  .crs-main-content {
   }
 }
