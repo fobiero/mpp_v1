@@ -89,6 +89,14 @@ const WhatWeDoPage = () => {
         <div className="container">
           <div className="service-item">
             <div className="row">
+              <div className="col-md-3">
+                <div className="service-item-thumb">
+                  <img
+                    alt="education-thumb"
+                    src={require("../assets/images/we-do/discussion.png")}
+                  />
+                </div>
+              </div>
               <div className="col-md-7">
                 <div className="service-item-thumb-info">
                   <h3 className="service-item-thum-info-tle">
@@ -123,14 +131,7 @@ const WhatWeDoPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3">
-                <div className="service-item-thumb">
-                  <img
-                    alt="education-thumb"
-                    src={require("../assets/images/we-do/discussion.png")}
-                  />
-                </div>
-              </div>
+
               <div className="col-md-2 offset"></div>
             </div>
           </div>
