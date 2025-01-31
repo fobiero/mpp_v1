@@ -193,4 +193,53 @@
     padding: 0.65rem 0;
     font-weight: 600;
   }
+
+  /* ABOUT SECTION  */
+  .about-section {
+    padding: 2rem 0 !important;
+  }
+  .cr-ct-dt {
+    position: absolute;
+    right: 15%;
+    bottom: 10% !important;
+    left: 15%;
+    color: #fff;
+    height: 100%;
+    padding: 6rem 0;
+    display: flex !important;
+    text-align: center !important;
+    display: inline-block !important;
+    justify-content: center !important;
+  }
+
+  .cr-header-tle {
+    display: none;
+  }
+
+  .cr-header-tle-desc {
+    font-weight: 300;
+    padding: 1.25rem 0;
+    font-size: 14px !important;
+  }
+
+  .btn-ind {
+    position: absolute;
+    right: 0;
+    bottom: 0.5%;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+  }
+  .home-btn-more {
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size: 12px;
+    padding: 0.35rem 0.65rem;
+  }
 }

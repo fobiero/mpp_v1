@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../assets/css/home.css";
+import "../assets/css/smallScreen.css";
 
 const Home = () => {
   return (
     <>
-      <div className="section-home">
+      <div className="section-home section">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -47,7 +48,10 @@ const Home = () => {
                   MPP staff participating in Monitoring and emulation training
                   in Kauda.
                 </p>
-                <Link className="about-more abt-ft-item" to="/about">
+                <Link
+                  className="about-more abt-ft-item home-btn-more"
+                  to="/about"
+                >
                   explore more <i class="fa-solid fa-arrow-right-long"></i>{" "}
                 </Link>
               </div>
@@ -64,7 +68,7 @@ const Home = () => {
                   Mountains’ Path for Peace registration team traveling through
                   muddy roads
                 </p>
-                <Link className="about-more abt-ft-item" to="/">
+                <Link className="about-more abt-ft-item home-btn-more" to="/">
                   donate <i class="fa-solid fa-arrow-right-long"></i>{" "}
                 </Link>
               </div>
@@ -81,7 +85,10 @@ const Home = () => {
                   With support from our international friends, we
                   supportedcandidates with transport services during their exams
                 </p>
-                <Link className="about-more abt-ft-item" to="/about">
+                <Link
+                  className="about-more abt-ft-item home-btn-more"
+                  to="/about"
+                >
                   explore more <i class="fa-solid fa-arrow-right-long"></i>{" "}
                 </Link>
               </div>
