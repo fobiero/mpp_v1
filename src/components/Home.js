@@ -66,7 +66,7 @@ const Home = () => {
                 <h5 className="cr-header-tle">Mision:</h5>
                 <p className="cr-header-tle-desc">
                   Mountains’ Path for Peace registration team traveling through
-                  muddy roads
+                  muddy roads.
                 </p>
                 <Link className="about-more abt-ft-item home-btn-more" to="/">
                   donate <i class="fa-solid fa-arrow-right-long"></i>{" "}
@@ -82,8 +82,8 @@ const Home = () => {
               <div class="carousel-caption d-inline d-md-block cr-ct-dt">
                 <h5 className="cr-header-tle">Project:</h5>
                 <p className="cr-header-tle-desc">
-                  Through friends, we supported candidates with transport
-                  services during their examinations
+                  We supported candidates with transport services during their
+                  exams.
                 </p>
                 <Link
                   className="about-more abt-ft-item home-btn-more"
