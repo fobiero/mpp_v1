@@ -42,17 +42,18 @@ const AboutPage = () => {
             redirects young people’s energy from conflict to societal
             sustainable development through creativity and forward-thinking. The
             major thematic area for this organization is peacebuilding and
-            nonviolent actions through education, trauma healing and
-            rehabilitation, natural resources conservation, and climate change.
-            These areas of focus are aligned to the United Nations Sustainable
-            Development Goals (SDGs). These projects address the root causes of
-            conflicts in the Nuba Mountains (low level of literacy, natural
-            resources, and unemployment). As a grassroots-led solution, we
-            advocate for peaceful conflict resolution, non-violent action, and
-            addressing the destructive consequences among the local communities
-            in Nuba Mountain, Sudan. Women, and children including both male and
-            female youth are the major targets of this project. This is because
-            these groups are the most affected groups. Children lack quality and
+            nonviolent actions. We build peace and transformation communities
+            through education, trauma healing and rehabilitation, natural
+            resources conservation, and climate change. These areas of focus are
+            aligned to the United Nations Sustainable Development Goals (SDGs).
+            These projects address the root causes of conflicts in the Nuba
+            Mountains (low level of literacy, natural resources, and
+            unemployment). As a grassroots-led solution, we advocate for
+            peaceful conflict resolution, non-violent action, and addressing the
+            destructive consequences among the local communities in Nuba
+            Mountain, Sudan. Women, and children including both male and female
+            youth are the major targets of this project. This is because these
+            groups are the most affected groups. Children lack quality and
             sufficient education, high rate of unemployment among the youths,
             women’s economic activities are disrupted.
           </div>

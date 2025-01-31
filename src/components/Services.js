@@ -47,7 +47,9 @@ const Services = () => {
                 </div>
                 <div className="about-sec-item-cont">
                   <div className="about-sec-item-cont-desc">
-                    <span className="span-about-sec-pill">health</span>
+                    <span className="span-about-sec-pill">
+                      health and well-being
+                    </span>
                     {/* <h3 className="span-about-sec-tle">focus on education</h3> */}
                     <p className="span-about-sec-info">
                       The primary goal of this project is to address the mental

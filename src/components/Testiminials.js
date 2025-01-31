@@ -22,7 +22,8 @@ const Testiminials = () => {
                 <div className="test-item-content">
                   <i class="fa-solid fa-quote-left"></i>
                   <p className="text-review">
-                    Our work is about Peace-building, healing and transformation
+                    Our work is about Peace-building, healing and
+                    transformation.
                   </p>
                 </div>
                 <span className="text-item-divide"></span>
@@ -39,7 +40,7 @@ const Testiminials = () => {
                   <i class="fa-solid fa-quote-left"></i>
                   <p className="text-review">
                     May our gneration be remembered as one that healed Sudan
-                    from evil deed.
+                    from evil deeds.
                   </p>
                 </div>
                 <span className="text-item-divide"></span>
