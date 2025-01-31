@@ -35,7 +35,6 @@ const Footer = () => {
                     <div className="ft-body ft-bd-smdv-link">
                       <p className="ft-body-item">
                         Location : Nuba Mountains/South Kurdufan, Sudan.
-                        Temporary Office of Operations: OCAM Headquarters
                       </p>
                       <p className="ft-body-item">
                         <Link href="" className="ft-it-lk">

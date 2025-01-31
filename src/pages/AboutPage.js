@@ -60,20 +60,7 @@ const AboutPage = () => {
                 major targets of this project. This is because these groups are
                 the most affected groups. Children lack quality and sufficient
                 education, high rate of unemployment among the youths, women’s
-                economic activities are disrupted. Above all these groups are
-                victims of conflict. According to To Move Mountains (TMM) 2019,
-                children demonstrated very low levels of literacy in English,
-                the language of instruction, and so the level of literacy
-                remains very low in the region. The New Sudan Council of
-                Churches states that 90% of women in the Blue Nile and Nuba
-                Mountains remain illiterate due to civil wars and conflicts that
-                have contributed to their social, economic, and political
-                problems in the region. The ongoing civil war in the Nuba
-                Mountains has had and continues to have devastating effects on
-                social lives, particularly education, the economy, and
-                development overall. Nuba Mountains is also home to persistent
-                poverty, which aggravates internal divisions and always results
-                in violence and conflicts among the local communities.
+                economic activities are disrupted.
               </div>
             </div>
           </div>

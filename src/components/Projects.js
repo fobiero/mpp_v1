@@ -13,12 +13,6 @@ const Projects = () => {
                 <h2 className="about-header-tle-main">
                   <span>where we work</span>
                 </h2>
-                <h6 className="tle-pro">
-                  Find out how Mountains'{" "}
-                  <i className="it-tle">path of peace</i> is making an impact
-                  and building sustainable development in local communities
-                  around Nuba mountains, Sudan.
-                </h6>
                 <p className="about-info proj-info-item">
                   We are at the frontline in Sudan, we work in Nuba Mountains,
                   Sudan also known as South Kurdufan. Marginalized,

@@ -35,8 +35,7 @@ const ContactPage = () => {
                   <span className="sp-cnt-ic">
                     <i class="fa-solid fa-location-dot"></i>
                   </span>{" "}
-                  Nuba Mountains/South Kurdufan, Sudan. <br /> Temporary Office
-                  of Operations: OCAM Headquarters
+                  Nuba Mountains/South Kurdufan, Sudan.
                 </h3>
                 <h3 className="contact-icon">
                   <span className="sp-cnt-ic">

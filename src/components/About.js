@@ -18,10 +18,6 @@ const About = () => {
             <h2 className="about-header-tle-main">
               <span>about us</span>
             </h2>
-            <h3 className="about-header">
-              young people’s energy from conflict to societal sustainable
-              development through creativity and forward-thinking
-            </h3>
             <p className="about-info">
               Mountains’ Path for Peace (MPP) is a Youth-led Non-profit and
               Nongovernmental Organization working towards Peacebuilding and
