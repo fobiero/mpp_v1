@@ -82,8 +82,8 @@ const Home = () => {
               <div class="carousel-caption d-inline d-md-block cr-ct-dt">
                 <h5 className="cr-header-tle">Project:</h5>
                 <p className="cr-header-tle-desc">
-                  With support from our international friends, we
-                  supportedcandidates with transport services during their exams
+                  Through friends, we supported candidates with transport
+                  services during their examinations
                 </p>
                 <Link
                   className="about-more abt-ft-item home-btn-more"
