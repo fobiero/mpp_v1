@@ -217,13 +217,13 @@
   }
 
   .cr-header-tle-desc {
-    font-weight: 300;
+    font-weight: 400;
     padding: 1.25rem 0;
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 
   .btn-ind {
-    position: absolute;
+    /* position: absolute;
     right: 0;
     bottom: 0.5%;
     left: 0;
@@ -233,7 +233,8 @@
     padding: 0;
     margin-right: 15%;
     margin-bottom: 1rem;
-    margin-left: 15%;
+    margin-left: 15%; */
+    display: none;
   }
   .home-btn-more {
     margin: 0;
