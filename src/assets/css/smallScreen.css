@@ -257,6 +257,19 @@
     padding: 7rem 0;
     text-transform: capitalize;
   }
-  .crs-main-content {
+  .blw-ft-link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+
+  .blw-ft-link span {
+    font-size: 12px;
+  }
+
+  .blw-ft-link {
+  }
+  .blw-ft-info {
+    font-size: 12px;
   }
 }

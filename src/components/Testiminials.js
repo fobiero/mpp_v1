@@ -21,23 +21,18 @@ const Testiminials = () => {
                 <div className="test-item-content">
                   <i class="fa-solid fa-quote-left"></i>
                   <p className="text-review">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English
+                    Our work is about Peace-building, healing and transformation
                   </p>
                 </div>
                 <span className="text-item-divide"></span>
                 <div className="text-item-footer">
                   <h3>
-                    John Doe - <span>volunteer</span>
+                    Alfull<span></span>
                   </h3>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="test-item">
                 <div className="test-item-content">
                   <i class="fa-solid fa-quote-left"></i>
@@ -57,24 +52,20 @@ const Testiminials = () => {
                   </h3>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
+            </div> */}
+            <div className="col-md-4 offset">
               <div className="test-item lst-item">
                 <div className="test-item-content">
                   <i class="fa-solid fa-quote-left"></i>
                   <p className="text-review">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English
+                    May our gneration be remembered as one that healed Sudan
+                    from evil deed.
                   </p>
                 </div>
                 <span className="text-item-divide"></span>
                 <div className="text-item-footer">
                   <h3>
-                    Martin Jones - <span>Donor</span>
+                    Alfull<span></span>
                   </h3>
                 </div>
               </div>

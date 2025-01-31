@@ -68,7 +68,7 @@ const Footer = () => {
                       what we do
                     </Link>
                     <Link className="ft-link-item" to="/about">
-                      where we are
+                      Who We Are
                     </Link>
                     <Link className="ft-link-item" to="/">
                       donate
@@ -109,7 +109,7 @@ const Footer = () => {
             <div className="blw-ft">
               <div className="blw-ft-link">
                 <img src={require("../assets/images/logo-bw.png")} />{" "}
-                <span>Mountain's path of peace</span>
+                <span>Mountain's path for peace</span>
               </div>
               <div className="blw-ft-info">All Rights reserved | @2025.</div>
             </div>
