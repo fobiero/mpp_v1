@@ -160,7 +160,6 @@
 
   /* wrapper   */
   .wrap-content {
-    display: inline-block;
     color: #fff !important;
     background-image: url("../images//local/hero-wrap-1.webp");
     background-repeat: no-repeat;
@@ -170,14 +169,16 @@
     background-attachment: fixed;
     width: 100%;
     text-align: center;
+    display: block !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
 
   .wrap-cont {
-    font-size: 1.2rem;
+    font-size: 18px !important;
     font-weight: 300;
-    margin-bottom: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
   }
 
   .br-sm-dv {
