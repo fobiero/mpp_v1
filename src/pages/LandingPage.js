@@ -9,6 +9,7 @@ import Services from "../components/Services";
 // import Wrapper from "../components/Wrapper";
 import Portfolio from "../components/Portfolio";
 import Video from "../components/Video";
+import Testiminials from "../components/Testiminials";
 
 const LandingPage = () => {
   return (
@@ -22,6 +23,7 @@ const LandingPage = () => {
         {/* <Wrapper /> */}
         <Projects />
         <Video />
+        <Testiminials />
         <Footer />
       </div>
     </>

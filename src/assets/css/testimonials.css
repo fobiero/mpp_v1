@@ -1,0 +1,103 @@
+@import "../../App.css";
+
+.testimonials-header {
+  text-align: center;
+}
+
+.testimonial-head {
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+  text-transform: capitalize;
+  font-size: 36px;
+}
+
+.test-header {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.test-header-user_name {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 450;
+}
+
+.test-header-date {
+  font-weight: 350;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.text-content {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+/* QUOTES  */
+.test-item {
+  padding: 1rem 0;
+  margin: 1rem 0 0 0;
+  text-align: center;
+}
+
+.test-item-content i {
+  padding: 0.65rem 0;
+  font-size: 32px;
+  color: var(--primary_color);
+}
+
+.text-review {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.text-item-footer {
+  padding: 0.5rem 0;
+}
+
+.text-item-footer h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.text-item-footer span {
+  color: var(--primary_color);
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.load-more-stories {
+  text-align: center;
+  padding: 2rem 0;
+  text-decoration: none;
+}
+
+.load-more-stories:hover {
+  color: var(--primary_color);
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.load-more-stories span {
+  border-radius: 10px;
+  color: var(--primary_color);
+  padding: 0.35rem 1.2rem;
+  border: 1px solid var(--primary_color);
+}
+
+@media screen and (max-width: 960px) {
+  .test-item {
+    padding: 1rem 0;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+  }
+  .lst-item {
+    border: none;
+  }
+}
