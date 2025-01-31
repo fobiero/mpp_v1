@@ -89,7 +89,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        {/* <button
+        <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
@@ -112,7 +112,7 @@ const Carousel = () => {
             aria-hidden="true"
           ></span>
           <span className="visually-hidden">Next</span>
-        </button> */}
+        </button>
       </div>
     </>
   );
