@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../assets/css/custom.css";
+import "../assets/css/smallScreen.css";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Wrapper from "../components/Wrapper";
 
 const ContactPage = () => {
   return (
@@ -102,6 +104,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <Wrapper />
       <Footer />
     </>
   );

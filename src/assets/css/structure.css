@@ -34,23 +34,3 @@
 }
 
 /* SMALL-SCREENN-DEVICES  */
-
-@media screen and (max-width: 960px) {
-  .vl-cont {
-    justify-content: center !important;
-    text-align: center !important;
-    padding: 0.5rem;
-    align-items: center !important;
-    display: inline-flex !important;
-  }
-  .str-cont-item-cv p {
-    justify-content: center !important;
-    display: inline-flex !important;
-    color: var(--primary_color);
-    text-align: center !important;
-  }
-
-  .vl-cont i {
-    display: none !important;
-  }
-}

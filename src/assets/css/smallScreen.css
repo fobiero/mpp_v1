@@ -1,0 +1,194 @@
+@import "../../App.css";
+
+@media screen and (max-width: 960px) {
+  .section {
+    padding: 2rem !important;
+  }
+  .proj-thumb {
+    height: 300px !important;
+    width: 100% !important;
+  }
+  .proj-thumb img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .about-header-tle-main {
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+  }
+  .sp-main-pg-desc-info {
+    padding: 0;
+  }
+  .about-sec-thumb {
+    padding: 0.5rem 0;
+  }
+
+  .about-headline {
+    padding: 2rem 0;
+    line-height: 1.3rem;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid #dedede;
+  }
+  .about-sec-thumb img {
+    width: 60px;
+    height: 60px;
+  }
+  .span-about-sec-pill {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #000;
+  }
+  .span-about-sec-info {
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding: 0.5rem 0;
+    font-weight: 300;
+  }
+  /* end about  */
+  /* potfolio  */
+  .pt-items {
+    margin: 1rem 0;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+  .pt-items img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pt-item-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    display: inline;
+    text-align: center !important;
+    align-items: center !important;
+    left: 0;
+    padding-top: 8rem;
+    right: 0;
+    background: rgba(0, 0, 0, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0.5;
+  }
+  .potfolio-section {
+    padding: 2rem 0;
+    background-color: var(--wrapper_second_color);
+  }
+
+  /* structure  */
+  .str-hd {
+    padding: 1rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .str-hd-smsc {
+    font-size: 32px !important;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+  }
+
+  .str-cont-item h5 {
+    text-align: center;
+    padding: 0.5rem 0;
+    font-weight: 600;
+    color: var(--primary_color);
+  }
+
+  .vl-cont {
+    display: block;
+    padding: 0.35rem 0;
+    text-align: center;
+    font-weight: 300 !important;
+  }
+
+  /* WHAT WE DO  */
+  .pg-hd-tle-item {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 24px;
+    border-bottom: 1px solid #dedede;
+  }
+
+  .service-item-thumb {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .service-item-thumb img {
+    width: 100%;
+    height: auto;
+  }
+
+  .service-item-thum-info-tle {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+
+  /* CONTACT  */
+  .contact-header {
+    font-size: 32px;
+    text-align: center;
+    padding: 1rem 0 0 0;
+    font-weight: 600;
+  }
+  .contact-items {
+    padding: 1rem 0;
+  }
+
+  .contact-body {
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid #dedede;
+  }
+
+  /* wrapper   */
+  .wrap-content {
+    display: inline-block;
+    color: #fff !important;
+    background-image: url("../images//local/hero-wrap-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .wrap-cont {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  .br-sm-dv {
+    display: none;
+  }
+
+  .vs-sm-scr {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding: 0.65rem 0;
+    font-weight: 600;
+  }
+}

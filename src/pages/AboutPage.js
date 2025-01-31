@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../assets/css/custom.css";
+import "../assets/css/smallScreen.css";
 
 import Navbar from "../components/Navbar.js";
 import Footer from "../components/Footer.js";
 import Structure from "../components/Structure.js";
+import Wrapper from "../components/Wrapper.js";
 
 const AboutPage = () => {
   return (
@@ -59,6 +61,7 @@ const AboutPage = () => {
         <Structure />
         {/* structure component  */}
       </div>
+      <Wrapper />
       <Footer />
     </>
   );

@@ -23,13 +23,14 @@
 }
 
 .proj-thumb {
-  width: 100%;
-  height: 400px;
+  width: auto;
+  height: 450px;
   overflow: hidden;
 }
 
 .proj-thumb img {
   width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 960px) {

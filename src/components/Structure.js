@@ -41,7 +41,7 @@ const Structure = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <h3 className="str-hd">Core Values</h3>
+              <h3 className="str-hd str-hd-smsc">Core Values</h3>
               <div className="str-cont-item str-cont-item-cv">
                 <p className="vl-cont">
                   <i class="fa-solid fa-check"></i> Diversity

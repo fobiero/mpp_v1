@@ -33,7 +33,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6">
               <div className="proj-thumb">
-                <img src={require("../assets/images/local/image-6.jpeg")} />
+                <img src={require("../assets/images/we-do/vivion.png")} />
               </div>
             </div>
           </div>
