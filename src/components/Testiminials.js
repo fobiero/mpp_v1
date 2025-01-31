@@ -16,6 +16,7 @@ const Testiminials = () => {
           </h2>
           <h3 className="ft-pr-header">what people say</h3>
           <div className="row">
+            <div className="col-md-2"></div>
             <div className="col-md-4">
               <div className="test-item">
                 <div className="test-item-content">
@@ -32,28 +33,7 @@ const Testiminials = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-4">
-              <div className="test-item">
-                <div className="test-item-content">
-                  <i class="fa-solid fa-quote-left"></i>
-                  <p className="text-review">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English
-                  </p>
-                </div>
-                <span className="text-item-divide"></span>
-                <div className="text-item-footer">
-                  <h3>
-                    michelle ranks - <span>board member</span>
-                  </h3>
-                </div>
-              </div>
-            </div> */}
-            <div className="col-md-4 offset">
+            <div className="col-md-4">
               <div className="test-item lst-item">
                 <div className="test-item-content">
                   <i class="fa-solid fa-quote-left"></i>
@@ -70,6 +50,7 @@ const Testiminials = () => {
                 </div>
               </div>
             </div>
+            <div className="col-md-2"></div>
             <Link className="load-more-stories" to="/">
               <span>
                 view more stories <i class="fa-solid fa-arrow-right-long"></i>{" "}
