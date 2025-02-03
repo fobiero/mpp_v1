@@ -45,7 +45,7 @@ const Home = () => {
               <div class="carousel-caption d-inline d-md-block cr-ct-dt">
                 <h5 className="cr-header-tle">Capacity Building Training.</h5>
                 <p className="cr-header-tle-desc">
-                  MPP staff participating in Monitoring and evaluation training
+                  MPP staff participating in monitoring and evaluation training
                   in Kauda.
                 </p>
                 <Link

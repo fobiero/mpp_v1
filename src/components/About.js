@@ -19,25 +19,24 @@ const About = () => {
               <span>about us</span>
             </h2>
             <p className="about-info">
-              Mountains’ Path for Peace (MPP) is a Youth-led Non-profit and
-              Nongovernmental Organization working towards Peacebuilding and
-              Nonviolent action in the Nuba Mountains, Sudan. It redirects young
-              people’s energy from conflict to societal sustainable development
-              through creativity and forward-thinking. The major thematic area
-              for this organization is peacebuilding and nonviolent actions
-              through education, trauma healing and rehabilitation,{" "}
-              <span className="smdv-hd">
-                {" "}
-                natural resources conservation, and climate change. <br />{" "}
-                <br /> These areas of focus are aligned to the United Nations
-                Sustainable Development Goals (SDGs). These projects address the
-                root causes of conflicts in the Nuba Mountains (low level of
-                literacy, natural resources, and unemployment). As a
-                grassroots-led solution, we advocate for peaceful conflict
-                resolution, non-violent action, and addressing the destructive
-                consequences among the local communities in Nuba Mountain,
-                Sudan.{" "}
-              </span>
+              Mountains’ Path for Peace (MPP) is non-profit, non-governmental
+              and local humanitarian organization working towards peacebuilding
+              and non-violent actions in the Nuba Mountains, Sudan. We redirect
+              young people’s energy from conflict to societal sustainable
+              development through creativity and forward-thinking. Our thematic
+              area is peacebuilding and nonviolent actions. We build peace and
+              transform local communities through education, health & wellbeing
+              (trauma healing and rehabilitation), and environment conservation.
+              These areas of focus are aligned to Sustainable Development Goals
+              (SDGs). <br /> <br />
+              We believe these projects address one of the major root causes of
+              conflicts (illiteracy) in the Nuba Mountains. As a grassroots-led
+              solution, we advocate for peaceful conflict resolution to address
+              disagreements among the local communities in Nuba Mountain. Our
+              major targets are children, women, and youth. This is because
+              these groups are the most affected groups. Children lack quality
+              and sufficient education, high rate of unemployment among the
+              youths, and women’s economic activities are disrupted.
             </p>
             <div className="about-ft">
               <Link className="about-more abt-ft-item" to="/about">
