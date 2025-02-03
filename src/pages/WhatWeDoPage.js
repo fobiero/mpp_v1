@@ -31,7 +31,7 @@ const WhatWeDoPage = () => {
           <h3 className="pg-hd-tle-item">Goals & Objectives of our Projects</h3>
           <div className="service-item">
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-6">
                 <div className="service-item-thumb">
                   <img
                     alt="education-thumb"
@@ -42,7 +42,7 @@ const WhatWeDoPage = () => {
               <div className="col-md-6">
                 <div className="service-item-thumb-info">
                   <h3 className="service-item-thum-info-tle">Education</h3>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     The goal of this project is to mainstream peace and ensure
                     quality and sufficient peace and conflict studies in primary
                     and secondary schools to build peace in the Nuba Mountains.
@@ -63,13 +63,13 @@ const WhatWeDoPage = () => {
                     material support to both primary and secondary schools in
                     the region.
                   </p>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     <span>Objective 1</span>
                     Formal Education: To introduce basic Peace and Conflict
                     Studies subject for formal learning in Primary and secondary
                     schools in the Nuba Mountains.
                   </p>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     <span>Objective 2</span>
                     Informal Education: 1. To train, prepare, and create public
                     awareness among the youths about nonviolent actions and
@@ -81,7 +81,7 @@ const WhatWeDoPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3 offset"></div>
+              {/* <div className="col-md-3 offset"></div> */}
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ const WhatWeDoPage = () => {
         <div className="container">
           <div className="service-item">
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-6">
                 <div className="service-item-thumb">
                   <img
                     alt="education-thumb"
@@ -97,12 +97,12 @@ const WhatWeDoPage = () => {
                   />
                 </div>
               </div>
-              <div className="col-md-7">
+              <div className="col-md-6">
                 <div className="service-item-thumb-info">
                   <h3 className="service-item-thum-info-tle">
                     Trauma Healing and Rehabilitation
                   </h3>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     The primary goal of this project is to address the mental
                     and emotional consequences of traumatic experiences among
                     young people, women, children, and Internal Displace Persons
@@ -117,13 +117,13 @@ const WhatWeDoPage = () => {
                     from the society and communities and pass it on to the next
                     generation due to long wars, oppression, and poverty.
                   </p>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     <span>Objective 1</span>
                     To create awareness of generational trauma among young
                     people, including the local communities, through dialogue
                     and other community outreach activities.
                   </p>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     <span>Objective 2</span>
                     Objective 2: To train young people on how to deal with
                     trauma through activities that foster the overall well-being
@@ -132,7 +132,7 @@ const WhatWeDoPage = () => {
                 </div>
               </div>
 
-              <div className="col-md-2 offset"></div>
+              {/* <div className="col-md-2 offset"></div> */}
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ const WhatWeDoPage = () => {
         <div className="container">
           <div className="service-item">
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-6">
                 <div className="service-item-thumb">
                   <img
                     alt="education-thumb"
@@ -153,7 +153,7 @@ const WhatWeDoPage = () => {
                   <h3 className="service-item-thum-info-tle">
                     Environment Conservation and Climate Change
                   </h3>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     In the Nuba Mountains, communal violence has been partly
                     caused by natural resources. The goal of this project is to
                     build peace by engaging and educating youths and local
@@ -172,7 +172,7 @@ const WhatWeDoPage = () => {
                     food security by increasing their farms productivity in the
                     Nuba mountains, Sudan.
                   </p>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     <span>Objective 1</span>
                     To create awareness and educate young people about food
                     security, food safety, food production and on how to combat
@@ -180,7 +180,7 @@ const WhatWeDoPage = () => {
                     sprawling suburbs in the Nuba Mountains through supporting
                     agriculture by distributing seedlings and tree nurses.
                   </p>
-                  <p className="service-item-thum-info-tle-desc">
+                  <p className="service-item-thum-info-tle-desc about-info">
                     <span>Objective 1</span>
                     To educate and enhance the economic capacity of youths for
                     economic growth within the local communities in the Nuba
@@ -190,7 +190,7 @@ const WhatWeDoPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3 offset"></div>
+              {/* <div className="col-md-3 offset"></div> */}
             </div>
           </div>
         </div>

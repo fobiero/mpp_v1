@@ -65,7 +65,7 @@ const Footer = () => {
                       home
                     </Link>
                     <Link className="ft-link-item" to="/whatwedo">
-                      about
+                      about us
                     </Link>
                     <Link className="ft-link-item" to="/about">
                       projects
