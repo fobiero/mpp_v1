@@ -93,7 +93,7 @@ const WhatWeDoPage = () => {
                 <div className="service-item-thumb">
                   <img
                     alt="education-thumb"
-                    src={require("../assets/images/we-do/discussion.png")}
+                    src={require("../assets/images/projects/health.jpeg")}
                   />
                 </div>
               </div>
