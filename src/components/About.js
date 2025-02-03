@@ -19,16 +19,17 @@ const About = () => {
               <span>about us</span>
             </h2>
             <p className="about-info">
-              Mountains’ Path for Peace (MPP) is non-profit, non-governmental
-              and local humanitarian organization working towards peacebuilding
-              and non-violent actions in the Nuba Mountains, Sudan. We redirect
-              young people’s energy from conflict to societal sustainable
-              development through creativity and forward-thinking. Our thematic
-              area is peacebuilding and nonviolent actions. We build peace and
-              transform local communities through education, health & wellbeing
-              (trauma healing and rehabilitation), and environment conservation.
-              These areas of focus are aligned to Sustainable Development Goals
-              (SDGs). <br /> <br />
+              Mountains’ <i>Path for Peace (MPP) </i> is non-profit,
+              non-governmental and local humanitarian organization working
+              towards peacebuilding and non-violent actions in the Nuba
+              Mountains, Sudan. We redirect young people’s energy from conflict
+              to societal sustainable development through creativity and
+              forward-thinking. Our thematic area is peacebuilding and
+              nonviolent actions. We build peace and transform local communities
+              through education, health & wellbeing (trauma healing and
+              rehabilitation), and environment conservation. These areas of
+              focus are aligned to Sustainable Development Goals (SDGs). <br />{" "}
+              <br />
               We believe these projects address one of the major root causes of
               conflicts (illiteracy) in the Nuba Mountains. As a grassroots-led
               solution, we advocate for peaceful conflict resolution to address
