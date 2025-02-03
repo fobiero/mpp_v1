@@ -43,7 +43,7 @@ const Home = () => {
                 alt="..."
               />
               <div class="carousel-caption d-inline d-md-block cr-ct-dt">
-                <h5 className="cr-header-tle">Capacity building Training:</h5>
+                <h5 className="cr-header-tle">Capacity Building Training.</h5>
                 <p className="cr-header-tle-desc">
                   MPP staff participating in Monitoring and evaluation training
                   in Kauda.
@@ -63,7 +63,9 @@ const Home = () => {
                 alt="..."
               />
               <div class="carousel-caption d-inline d-md-block cr-ct-dt">
-                <h5 className="cr-header-tle">Mision:</h5>
+                <h5 className="cr-header-tle">
+                  Our Mission to Nuba Mountains.
+                </h5>
                 <p className="cr-header-tle-desc">
                   Mountains’ Path for Peace registration team traveling through
                   muddy roads.
@@ -80,7 +82,7 @@ const Home = () => {
                 alt="..."
               />
               <div class="carousel-caption d-inline d-md-block cr-ct-dt">
-                <h5 className="cr-header-tle">Project:</h5>
+                <h5 className="cr-header-tle">Our Projects.</h5>
                 <p className="cr-header-tle-desc">
                   We supported candidates with transport services during their
                   exams.

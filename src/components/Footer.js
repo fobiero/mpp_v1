@@ -65,16 +65,19 @@ const Footer = () => {
                       home
                     </Link>
                     <Link className="ft-link-item" to="/whatwedo">
-                      what we do
+                      about
                     </Link>
                     <Link className="ft-link-item" to="/about">
-                      Who We Are
+                      projects
                     </Link>
-                    <Link className="ft-link-item" to="/">
-                      donate
+                    <Link className="ft-link-item" to="/about">
+                      testimonials
                     </Link>
                     <Link className="ft-link-item" to="/contact">
                       contact us
+                    </Link>
+                    <Link className="ft-link-item" to="/">
+                      donate
                     </Link>
                   </div>
                 </div>
@@ -109,7 +112,7 @@ const Footer = () => {
             <div className="blw-ft">
               <div className="blw-ft-link">
                 <img src={require("../assets/images/logo-bw.png")} />{" "}
-                <span>Mountain's Path For Peace</span>
+                <span>Mountains' Path For Peace</span>
               </div>
               <div className="blw-ft-info">All Rights reserved | @2025.</div>
             </div>
