@@ -9,9 +9,8 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="#" to="/">
             <img
-              to="/"
               className="logo-item"
               src={require("../assets/images/logo.png")}
             />
