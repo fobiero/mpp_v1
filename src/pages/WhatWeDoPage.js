@@ -35,7 +35,7 @@ const WhatWeDoPage = () => {
                 <div className="service-item-thumb">
                   <img
                     alt="education-thumb"
-                    src={require("../assets/images/we-do/education.png")}
+                    src={require("../assets/images/projects/edu-kib.jpg")}
                   />
                 </div>
               </div>
