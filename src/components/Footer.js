@@ -46,6 +46,22 @@ const Footer = () => {
                           Phone : +254797036677
                         </Link>
                       </p>
+                      <div className="soc-ico">
+                        <Link
+                          className="soc-ico-ft facebook-ico"
+                          target="_blank"
+                          to="https://www.facebook.com/people/The-Mountains-Path-for-Peace/61569400538343/"
+                        >
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </Link>
+                        <Link
+                          className="soc-ico-ft linkedin-ico"
+                          target="_blank"
+                          to="https://www.linkedin.com/company/mountains-path-for-peace-mpp/"
+                        >
+                          <i class="fa-brands fa-linkedin-in"></i>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>

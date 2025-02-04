@@ -418,6 +418,20 @@
   margin-right: 0.35rem;
 }
 
+/* SOCIAL--MEDIA--FOOTER--LONKS  */
+.soc-ico {
+  padding: 0.5rem 0 0 0;
+}
+.soc-ico-ft {
+  font-size: 16px;
+  padding-right: 1rem;
+  color: var(--pill_bg_color);
+}
+
+.soc-ico-ft:hover {
+  opacity: 0.5;
+}
+
 /* RESPONSIVE-DEVICES  */
 /* small screen-device  */
 
