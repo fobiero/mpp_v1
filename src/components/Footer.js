@@ -130,7 +130,7 @@ const Footer = () => {
                 <img src={require("../assets/images/logo-bw.png")} />{" "}
                 <span>
                   <b className="sm-ft-cont-bd">Mountains'</b>{" "}
-                  <small className="sm-ft-cont">Path For Peace </small>
+                  <small className="sm-ft-cont">Path for Peace </small>
                 </span>
               </div>
               <div className="blw-ft-info">All Rights reserved | @2025.</div>
