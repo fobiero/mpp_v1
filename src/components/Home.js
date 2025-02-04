@@ -67,8 +67,8 @@ const Home = () => {
                   Our Mission to Nuba Mountains.
                 </h5>
                 <p className="cr-header-tle-desc">
-                  Mountains’ Path for Peace registration team traveling through
-                  muddy roads.
+                  Mountains’ <i>Path for Peace</i> registration team traveling
+                  through muddy roads.
                 </p>
                 <Link className="about-more abt-ft-item home-btn-more" to="/">
                   donate <i class="fa-solid fa-arrow-right-long"></i>{" "}
