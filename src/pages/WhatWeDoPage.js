@@ -20,12 +20,12 @@ const WhatWeDoPage = () => {
                 home
               </Link>
               <Link className="current-section-link pg-sc-link" to="/whatwedo">
-                what we do
+                Projects
               </Link>
             </div>
           </div>
 
-          <div className="page-header-tle">What we do</div>
+          <div className="page-header-tle">Our Projects</div>
         </div>
         <div className="container">
           <h3 className="pg-hd-tle-item">Goals & Objectives of our Projects</h3>
