@@ -432,6 +432,16 @@
   opacity: 0.5;
 }
 
+.sm-ft-cont-bd {
+  font-weight: 600;
+}
+
+.sm-ft-cont {
+  color: var(--primary_color);
+  font-size: inherit;
+  font-weight: 400;
+}
+
 /* RESPONSIVE-DEVICES  */
 /* small screen-device  */
 
